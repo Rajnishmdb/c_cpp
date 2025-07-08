@@ -1,0 +1,55 @@
+#include<stdio.h>
+#include<conio.h>
+#include<dos.h>
+int main()
+{
+     int i=0,j=0;
+     while(i<2)
+     {
+	 sound(262);
+	 delay(300);
+	 i++;
+     }
+     sound(294);
+     delay(800);
+     sound(262);
+     delay(800);
+     sound(349);
+     delay(800);
+     sound(330);
+     delay(800);
+     //sound(262);
+     //delay(300);
+     //sound(262);
+     //delay(300);
+     //sound(294);
+     //delay(800);
+     while(j<2)
+     {
+	 sound(266);
+	 delay(300);
+	 j++;
+     }
+     sound(298);
+     delay(800);
+     sound(266);
+     delay(800);
+     sound(353);
+     delay(800);
+     sound(334);
+     delay(800);
+     /*Following code for ||dear something||*/
+     /*sound(400);
+     delay(200);
+     sound(396);
+     delay(200);
+     sound(266);
+     delay(300);
+     sound(330);
+     delay(300);
+     sound(334);
+     delay(1000);*/
+     nosound();
+     getch();
+     return 0;
+}
